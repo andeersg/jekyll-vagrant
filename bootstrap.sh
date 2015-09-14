@@ -1,5 +1,6 @@
 apt-get -y update
-apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
+apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev git-core
+
 
 # Install ruby:
 cd /tmp
