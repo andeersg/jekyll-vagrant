@@ -23,6 +23,18 @@ vagrant up
 vagrant ssh
 ```
 
+## Getting started
+
+You can make Jekyll set up a sample site for you by typing:
+```
+jekyll new sample-blog
+```
+
+This will create a new directory `sample-blog` in your current directory with a sample site in it.
+
+To access via browser look at the next section.
+
+
 ## Port forwarding
 
 The Vagrant vm is configured to forward port 8124 by default. So you can start a Jekyll server like so:
